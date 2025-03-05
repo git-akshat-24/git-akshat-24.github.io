@@ -1,0 +1,90 @@
+body{
+    background-color:white;
+}
+.header{
+    font-size: 35px;
+    text-align: center;
+    background-color: firebrick;
+    color: yellow;
+}
+marquee{
+    background-color:white;
+    color:red;
+}
+.box-wrappeer {
+    width: 100%;
+    min-height: 75vh;
+    background-color:pink;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.pic1 {
+    width: 200px;
+    height: 200px;
+    padding-top: 150px;
+}
+.pic2 {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+.pic3 {
+    width: 200px;
+    height: 200px;
+    padding-top: 150px;
+}
+button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+#click1{
+    background-color:lime;
+    color: #ddd;
+}
+#click2{
+    background-color:rgb(251, 6, 6);
+    color: #ddd;
+}
+.surprise{
+    color: crimson;
+    background-color:gold;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: black;
+}
+
+.custom-alert {
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f16773;
+    color: #f6f4f4;
+    padding: 10px;
+    border: 500px solid;
+    border-color: gray;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    height: 40%;
+    
+}
+  p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: solid;
+  }

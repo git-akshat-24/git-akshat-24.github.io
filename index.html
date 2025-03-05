@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"><header>Important Note..!!!⚠️⚠️</header></div>
+        <marquee><h1>Happy Birthday Dip<sub>(Bandariya🐒🐵....)</sub></h1></marquee>
+        <div class="box-wrappeer">
+            <div class="pic1">
+                <img src="../images/11.jpg" alt="Sorry yar is system me teri Image Download hi nhi huyi😢..."width="150px">
+                <p> Many Many Happy Returns Of The Day.</p>
+            </div>
+    
+            <div class="pic2">
+                <img src="../images/12.jpg" alt="Sorry yar is system me teri Image Download hi nhi huyi😢..."width="150px">
+                <p>Happy Birthday Dipudi 🐭...</p>
+            </div>
+    
+            <div class="pic3">
+                <img src="../images/13.jpg" alt="Sorry yar is system me teri Image Download hi nhi huyi😢..." width="150px">
+                <p>Stayy Happy and Enjoy your day with Happiness.</p>
+            </div>
+        </div>
+        <div class="surprise">A Little Surprise For You. Will you check it out..?</div>
+
+        <div class="btn1">
+            <a href="../Codes/surprise.html"><button type="button" id="click1">Click To View it..!!😍</button></a>
+        </div>
+    
+        <button onclick="showCustomAlert()" id="click2">Click To Ignore it..😢</button>
+
+<div id="customAlert" class="custom-alert">
+    <p id="alertMessage"></p>
+    <button id="customButton">Close</button>
+</div>
+
+<script>
+    function showCustomAlert() {
+        const message = "View pe click kr bandariya..!!😡 Bada bhaw kha rhi h...😏🐵";
+        const buttonText = " Please Close me First";
+        const alertBox = document.getElementById('customAlert');
+        const alertMessage = document.getElementById('alertMessage');
+        const customButton = document.getElementById('customButton');
+
+        alertMessage.innerText = message;
+        customButton.innerText = buttonText;
+
+        alertBox.style.display = 'block';
+
+        customButton.addEventListener('click', function () {
+            alertBox.style.display = 'none'; 
+        });
+    }
+</script>
+</body>
+</html>
